@@ -38,27 +38,17 @@ header {
   }
 
   .left-controls {
-    position: absolute;
     width: 118.1px;
     height: 22.68px;
-    left: 52px;
-    top: 25px;
-  }
-
-  .search-controls {
-    position: absolute;
-    width: 555.28px;
-    height: 17.21px;
-    left: 393px;
-    top: 24.5px;
+    margin-left: 52px;
+    margin-top: 25px;
   }
 
   .site-menu {
-    position: absolute;
     width: 555.28px;
     height: 20px;
-    left: 393px;
-    top: 24.5px;
+    margin-left: 222.5px;
+    margin-top: 24.5px;
     font-size: 14px;
     line-height: 15px;
   }
