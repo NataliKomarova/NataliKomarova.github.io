@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/pragmatica-cyrillic_[allfont.ru].ttf");
+}
+
+@font-face {
+  font-family: "PragmaticaBold";
+  src: url("../fonts/pragmatica-bold-cyrillic_[allfont.net].ttf");
+}
+
+.pragmatica-fonts {
+  font-family: "Pragmatica", arial;
+}
+
+.pragmatica-bold-fonts {
+  font-family: "PragmaticaBold", arial;
+}
+
+header {
+  height: 480px;
+  width: 1000px;
+  //   margin: 0 auto;
+  background-image: url("../images/bag_with_iphone.jpg");
+  color: #fff;
+
+  .site-title {
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+
+  .site-subtitle {
+    font-size: 9px;
+    line-height: 8px;
+    margin-left: 1.5px;
+  }
+
+  .left-controls {
+    position: absolute;
+    width: 118.1px;
+    height: 22.68px;
+    left: 52px;
+    top: 25px;
+  }
+
+  .search-controls {
+    position: absolute;
+    width: 555.28px;
+    height: 17.21px;
+    left: 393px;
+    top: 24.5px;
+  }
+
+  .site-menu {
+    position: absolute;
+    width: 555.28px;
+    height: 20px;
+    left: 393px;
+    top: 24.5px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .menu-item{
+    text-decoration: unset;
+    color: #fff;
+    margin-right: 25px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    &:active{
+      border-bottom: 2px solid #fff;
+    }
+  }
+}
+
+.first-screen {
+  width: 892px;
+  height: 586.52px;
+  margin: 67px 56px 54px 52px;
+  color: #000;
+
+  .left-part {
+    width: 528px;
+  }
+
+  .title {
+    height: 228.37px;
+    font-size: 47px;
+    line-height: 55.5px;
+    margin-bottom: 23px;
+    white-space: pre-line;
+  }
+
+  .content {
+    width: 459.09px;
+    height: 335.52px;
+    font-size: 24px;
+    line-height: 34px;
+    white-space: pre-line;
+  }
+
+  .right-part {
+    height: 540px;
+    margin-top: 10px;
+  }
+}
+
+.second-screen {
+  width: 893px;
+  height: 584.18px;
+  margin: 0 54px 94px 53px;
+  color: #000;
+
+  .top-part {
+    height: 214px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 31px;
+    line-height: 37px;
+    margin-bottom: 21px;
+  }
+
+  .content {
+    font-size: 19px;
+    line-height: 25px;
+    white-space: pre-line;
+  }
+
+  .example-item {
+    margin-right: 22px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .example-title {
+    font-size: 16px;
+    line-height: 125%;
+    margin-top: 14px;
+    margin-bottom: 0;
+  }
+
+  .example-content {
+    font-size: 14px;
+    line-height: 17px;
+    white-space: pre-line;
+  }
+}
+
+footer {
+  width: 1000px;
+  color: #000;
+  font-size: 14px;
+  line-height: 122.2%;
+  margin-bottom: 25.79px;
+
+  .logo {
+    width: 108.71px;
+    height: 17.21px;
+    margin-left: 54px;
+  }
+
+  .phone {
+    width: 122.01px;
+    height: 17.21px;
+    margin-left: 35.29px;
+  }
+
+  .social-networks {
+    width: 84px;
+    margin-left: 544px;
+    margin-top: 2px;
+  }
+
+  .social-network {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 9px;
+    text-decoration: unset;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .vk{
+    background-image: url("../images/VK_black.png");
+  }
+
+  .fb{
+    background-image: url("../images/Facebook_black.png");
+  }
+
+  .inst{
+    background-image: url("../images/Instagram_black.png");
+  }
+}
